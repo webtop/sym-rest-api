@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+    php:
+        container_name: php-fpm
+        build: ./php-fpm
+        ports:
+            - "9000:9001"
+        volumes:
+            - ..:/var/www/app:cached
+            - ../var/log:/var/www/app/var/log:cached
+        networks:
+            - php
+    nginx:
+        container_name: nginx
+        build: ./nginx
+        ports:
+            - "80:80"
+        depends_on: 
+            - php
+        networks:
+            - php
+        volumes:
+            - ../var/log/nginx:/var/log/nginx:cached
+            - ../var/log/app:/var/log/app:cached
+networks:
+    php:
