@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173153c0-3eb6-4fa8-a211-7843922a2df5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sym-rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sym-rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Controller/JokeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/JokeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Entity/Joke.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Entity/Joke.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
-    </list>
+    <list default="true" id="173153c0-3eb6-4fa8-a211-7843922a2df5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +199,7 @@
       <updated>1599535619054</updated>
       <workItem from="1599535620170" duration="2235000" />
       <workItem from="1599571704828" duration="509000" />
-      <workItem from="1599598033780" duration="23557000" />
+      <workItem from="1599598033780" duration="23721000" />
     </task>
     <servers />
   </component>
