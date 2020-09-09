@@ -43,8 +43,6 @@ COPY app.ini /etc/php7/cli/conf.d/
 COPY xdebug.ini  /etc/php7/conf.d/
 COPY app.conf /etc/php7/php-fpm.d/
 
-RUN chmod 0777 /var/www/app/var/jokes.db
-
 CMD ["php-fpm7", "-F"]
 
 WORKDIR /var/www/app
