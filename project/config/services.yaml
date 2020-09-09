@@ -18,7 +18,7 @@ services:
         exclude:
             - '../src/DependencyInjection/'
             - '../src/Entity/'
-            - '../src/Kernel.php'
+            - '../src/Kernel.app'
             - '../src/Tests/'
 
     # controllers are imported separately to make sure services can be injected

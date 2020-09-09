@@ -1,0 +1,9 @@
+joke_list:
+    path: /api/v1/jokes
+    controller: App\Controller\JokeController:indexAction
+    methods: [GET]
+
+joke_create:
+    path: /api/v1/jokes
+    controller: App\Controller\JokeController:createAction
+    methods: [POST]

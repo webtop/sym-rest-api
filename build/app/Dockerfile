@@ -18,7 +18,7 @@ RUN apk add --update --no-cache \
     php7-opcache \
     php7-openssl \
     php7-pdo \
-    php7-pdo_mysql \
+    php7-pdo_sqlite \
     php7-sqlite3 \
     php7-xml \
     php7-zlib \
@@ -30,7 +30,8 @@ RUN apk add --update --no-cache \
     php7-zip \
     php7-xmlwriter \
     make \
-    curl
+    curl \
+    bash
 
 RUN echo "$(curl -sS https://composer.github.io/installer.sig) -" > composer-setup.php.sig \
         && curl -sS https://getcomposer.org/installer | tee composer-setup.php | sha384sum -c composer-setup.php.sig \
@@ -41,7 +42,7 @@ COPY app.ini /etc/php7/conf.d/
 COPY app.ini /etc/php7/cli/conf.d/
 COPY xdebug.ini  /etc/php7/conf.d/
 
-COPY app.pool.conf /etc/php7/php-fpm.d/
+COPY app.conf /etc/php7/php-fpm.d/
 
 CMD ["php-fpm7", "-F"]
 

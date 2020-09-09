@@ -15,7 +15,7 @@
 		/**
 		 * @var int $id | Joke ID
 		 * @ORM\Column(name="id", type="integer")
-		 * @ORM\ID()
+		 * @ORM\Id()
 		 * @ORM\GeneratedValue(strategy="AUTO")
 		 */
 		private $id;
