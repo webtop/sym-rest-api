@@ -1,9 +1,39 @@
 joke_list:
-    path: /api/v1/jokes
-    controller: App\Controller\JokeController:indexAction
+    path: /api/v1/jokes/list/{page}/{perPage}
+    controller: App\Controller\JokeController:listAction
+    methods: [GET]
+    defaults:
+        page: 1
+        perPage: 5
+    requirements:
+        page: '\d+'
+        perPage: '\d+'
+
+joke_by_id:
+    path: /api/v1/jokes/fetch/{id}
+    controller: App\Controller\JokeController:fetchAction
+    methods: [GET]
+    requirements:
+        id: '\d+'
+
+joke_random:
+    path: /api/v1/jokes/random
+    controller: App\Controller\JokeController:fetchAction
     methods: [GET]
 
 joke_create:
     path: /api/v1/jokes
     controller: App\Controller\JokeController:createAction
     methods: [POST]
+
+joke_edit:
+    path: /api/v1/jokes
+    controller: App\Controller\JokeController:editAction
+    methods: [PUT]
+
+joke_delete:
+    path: /api/v1/jokes/{id}
+    controller: App\Controller\JokeController:deleteAction
+    methods: [DELETE]
+    requirements:
+        id: '\d+'

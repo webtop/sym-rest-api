@@ -125,6 +125,13 @@
       <path value="$PROJECT_DIR$/project/vendor/symfony/security-http" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/security-bundle" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/project/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/project/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/project/vendor/friendsofsymfony/rest-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

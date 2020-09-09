@@ -28,7 +28,7 @@
 
 		/**
 		 * @var string $body | Body of the joke
-		 * @ORM\Column(name="body", type="string")
+		 * @ORM\Column(name="body", type="string", length=1200)
 		 */
 		private $body;
 

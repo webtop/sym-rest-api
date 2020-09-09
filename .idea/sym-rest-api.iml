@@ -23,6 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/reflection" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/friendsofsymfony/rest-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/ocramius/proxy-manager" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/phpdocumentor/reflection-docblock" />
@@ -46,12 +47,16 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/filesystem" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/finder" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/form" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/framework-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/http-client" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/http-client-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/http-foundation" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/intl" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/options-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-intl-icu" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-intl-normalizer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-php73" />
@@ -74,6 +79,8 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/willdurand/jsonp-callback-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/willdurand/negotiation" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/zendframework/zend-code" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/zendframework/zend-eventmanager" />
     </content>
