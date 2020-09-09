@@ -4,6 +4,7 @@
 
 	use App\Entity\Joke;
 	use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+	use Symfony\Component\HttpFoundation\Request;
 	use Symfony\Component\HttpFoundation\Response;
 
 	class JokeController extends AbstractController {

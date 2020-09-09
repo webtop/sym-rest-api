@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="173153c0-3eb6-4fa8-a211-7843922a2df5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/project/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sym-rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sym-rest-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/project/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/project/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/build/nginx/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nginx/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/nginx/app.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/php-fpm/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/app.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/php-fpm/app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/app.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/php-fpm/xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/xdebug.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/cache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/prod/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/prod/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/test/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes/annotations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/dev/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes/dev/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/migrations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/JokeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/JokeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Entity/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Joke.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Entity/Joke.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Repository/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Controller/JokeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/JokeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +77,76 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/project/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/project/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/project/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/project/vendor/composer" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/project/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/project/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/project/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/project/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/project/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/project/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/project/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/project/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/security-csrf" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hDB7y6W8bOr1YQLXQH2vzMTTz8" />
@@ -154,7 +197,7 @@
       <updated>1599535619054</updated>
       <workItem from="1599535620170" duration="2235000" />
       <workItem from="1599571704828" duration="509000" />
-      <workItem from="1599598033780" duration="9548000" />
+      <workItem from="1599598033780" duration="11657000" />
     </task>
     <servers />
   </component>
