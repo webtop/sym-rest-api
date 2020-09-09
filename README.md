@@ -8,7 +8,7 @@ I included a Makefile to more easily manage the starting of the project.
 - Navigate to the build folder 
 - Run "make start" from a terminal
 
-After the containers are built, Composer will run and ansure everything is up-to-date. You should then see an output that shows 2 containers running.
+After the containers are built, Composer will run and ensure everything is up-to-date. You should then see an output that shows 2 containers running.
 
 To stop the containers, navigate to the build folder and issue "make stop". You can view the build/Makefile for additional commands.
 
@@ -16,7 +16,7 @@ To stop the containers, navigate to the build folder and issue "make stop". You 
 I was not able to get to the API endpoint to edit a joke. I was also not able to generate the Swagger documentation. 
 
 # Use
-The API can be reached however, from Postman or other API client at http://localhost/api/v1/joke with the following endpoints:
+The API can be reached however, from Postman or other API client at http://localhost/api/v1/jokes with the following endpoints:
 - [GET]    /list/{page}/{perPage} (defaults to page 1, perPage 5) -- Lists jokes
 - [GET]    /fetch/{id} -- Fetches a joke by ID
 - [GET]    /random -- Fetches a random joke
